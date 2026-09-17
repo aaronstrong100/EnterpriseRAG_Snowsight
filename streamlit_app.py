@@ -3,7 +3,7 @@ from snowflake.snowpark import Session
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
-st.title("Enterprise RAG Assistant :mag:")
+st.title("Enterprise RAG Assistant")
 st.write("Ask a question, and the app will search your internal documents to find the answer.")
 
 # 1. Grab the raw private key string from Streamlit secrets
