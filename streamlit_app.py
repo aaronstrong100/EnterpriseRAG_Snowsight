@@ -6,7 +6,6 @@ from cryptography.hazmat.backends import default_backend
 
 st.title("Enterprise RAG Assistant")
 st.write("Ask a question, and the app will search your internal documents to find the answer.")
-st.write("The site is currently down for maintenance. Please revisit later tonight if you want to try!")
 
 @st.cache_resource
 def get_snowflake_session():
